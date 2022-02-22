@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="{% static 'img/2.jpg' %}" type="image/jpg">
+  <title>ITCODER</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+  <header class="header">
+    <span class="logo">Сайт-визитка telegram-канала @python_itkg</span>
+  </header>
+  <div class="hero">
+    <div class="container hero__container">
+      <div class="hero__about">
+        <h1 class="hero__title">Backend | Python</h1>
+        <h2 class="hero__subtitle">ITCODER</h2>
+        <p class="hero__description">
+          Python — высокоуровневый язык программирования общего назначения с динамической строгой типизацией
+          и автоматическим управлением памятью, ориентированный на повышение производительности разработчика,
+          читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ. 💡
+          <br><br> На нашем телеграм-канале вы найдёте:
+          <li>Уроки с примерами💻</li>
+          <li>Тесты📌</li>
+          <li>Туториалы🧑🏻‍💻</li>
+          <li>Крутые книги(перевод книг)📚</li>
+        </p>
+        <div class="hero__links">
+          <a class="hero__link" href="https://vk.com/" target="_blank"><i class='bx bxl-vk'></i></a>
+          <a class="hero__link" href="#"><i class='bx bxl-facebook'></i></a>
+          <a class="hero__link" href="https://www.instagram.com/itcoder.kg"><i class='bx bxl-instagram'></i></a>
+          <a class="hero__link" href="https://t.me/python_itkg"><i class='bx bxl-telegram'></i></a>
+        </div>
+      </div>
+      <div class="hero__box">
+        <img class="hero__box-img" src="{% static 'img/12.png' %}" alt="">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
